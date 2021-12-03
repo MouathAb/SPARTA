@@ -32,7 +32,7 @@ for model in models:
     print('\n')
     print('/\\'*100)
     try:
-        os.system('python3 ./src2/models/from_timm2.py --window 10 -m '+model)
+        os.system('python3 ./src/models/from_timm2.py --window 10 -m '+model)
     except:
         print(' [FIX] Error on building some models ...')
         
@@ -40,9 +40,9 @@ for model in models:
         print('\n')
         print('\t\t\t\t\t\t\t\t\t\t\tsubject : ', s)        
         print('\n')
-        os.system('python3 ./src2/train.py --epoch 50 --data '+data+' -m '+model+' -se False -sub '+str(s) +' --window 10')
+        os.system('python3 ./src/train.py --epoch 50 --data '+data+' -m '+model+' -se False -sub '+str(s) +' --window 10')
         gc.collect()
-        os.system('python3 ./src2/test.py  --data '+data+'  -m '+model+' -se False -sub '+str(s) +' --window 10')
+        os.system('python3 ./src/test.py  --data '+data+'  -m '+model+' -se False -sub '+str(s) +' --window 10')
         
         #os.system('python src2/train.py --epoch 15 --data '+data+' --scheduler nope -m '+model+' -se True')
         print('\n')
