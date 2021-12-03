@@ -1,0 +1,3 @@
+singularity exec --bind "/home/nbeuve/Workspace/dfd-transformer/models:/models" --nv ../pytorch180.sif /bin/bash -c "python3 /models/from_timm.py"
+singularity exec --bind "/home/nbeuve/Workspace/dfd-transformer/models:/models" --nv ../pytorch180.sif /bin/bash -c "python3 /models/cvt/src/cvt.py"
+#singularity exec --bind "/home/nbeuve/Workspace/dfd-transformer/models:/models" --nv ../pytorch180.sif /bin/bash -c "python3 /models/t2t/src/t2t.py"
