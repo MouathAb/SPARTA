@@ -1,8 +1,8 @@
 
-**** This is SPARTA: SPAtiotemporal Recurrent TrAnsformer for facial micro and macro expression spotting and recognition ****
-#############################################################################################################################################################################
+ ## **** This is SPARTA: SPAtiotemporal Recurrent TrAnsformer for facial micro and macro expression spotting and recognition ****
+----------------------------------------------------------------------------------------------------------------------------------------
 
-""" Project ORGANISATION """
+# Project ORGANISATION 
 
 -git(mouath.aouayeb)["./"]
  |-SPARTA
@@ -74,9 +74,8 @@
      |-... (#for environment installation on [CS] mesoCentre ruche SERVER)
    |-track_exp.ods (#To track experiments) 	
 
-###########################################################################################
-
-""" Packages to install """"
+--------------------------------------------------------------------------------------------
+# Packages to install 
 
 Install Anaconda env, with python3.7:
 	
@@ -106,18 +105,18 @@ Packages to install
 (MORE to prepare the dockerfile + image.sif see Singularity and Docker Documentations)
 (MORE for the mesocenter go to enviro folder [°}°] )
 
-###########################################################################################
+------------------------------------------------------------------------------------------
 
-""" To be executed (on terminal) """"
+# To be executed (on terminal)
 
 !cd MERS1/FER-transformer-master-src
 
-# if you are on a (local) machine
+<if you are on a (local) machine>
 !python run.py
 
-#if you are on a server (cluster) ! you have to adapt the .sh file parameter
+< if you are on a server (cluster) ! you have to adapt the .sh file parameter >
 !sbatch Run_cluster_GPU_Training.sh
 
-#results can be found under MERS1/FER-transformer-master-src/RESULT and/or on MERS1/FER-transformer-master-src/output.txt (OR ../output.txt)
+< results can be found under MERS1/FER-transformer-master-src/RESULT and/or on MERS1/FER-transformer-master-src/output.txt (OR ../output.txt) >
 
-###########################################################################################
+-----------------------------------------------------------------------------------------
