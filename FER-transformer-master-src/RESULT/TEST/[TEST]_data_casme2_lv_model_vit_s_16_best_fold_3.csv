@@ -1,0 +1,2 @@
+Predicted_all,Predicted_micro,Predicted_macro,Target_all,Target_micro,Target_macro,Reacll_all,Precision_all,F1_score_all,TP_micro,Reacll_micro,Precision_micro,F1_score_micro,TP_macro,Reacll_macro,Precision_macro,F1_score_macro
+0,5,0,5,5,1,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
