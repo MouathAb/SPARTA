@@ -1,13 +1,13 @@
 
-**** MAMA VA RESTER: MAcro- and Micro-expression Analysis with Vision Attention model (RESTER: REcurrent Spatio-Temporal TransformER for Micro-Expression REcognition) ****
+**** This is SPARTA: SPAtiotemporal Recurrent TrAnsformer for facial micro and macro expression spotting and recognition ****
 #############################################################################################################################################################################
 
 """ Project ORGANISATION """
 
 -git(mouath.aouayeb)["./"]
- |-MAMA_VA_RESTER
-   |-Anaconda3-2019.10-Linux-x86_64.sh 
-   |-content (#!NOT in GITLAB)
+ |-SPARTA
+   |-Anaconda3-2019.10-Linux-x86_64.sh (#!NOT in GITHUB)
+   |-content (#!NOT in GITHUB)
      |-'CAS(ME)2_longVideoFaceCropped'
        |-...(#DB)
    |-FER-transformer-master-src
