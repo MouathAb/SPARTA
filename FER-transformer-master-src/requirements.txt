@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+tqdm
+scipy
+scikit-learn
+natsort
+glob2
+torch==1.8.1
+torchvision==0.9.1
+timm==0.4.9
+vit-pytorch==0.19.4
+swin-transformer-pytorch==0.4.1
